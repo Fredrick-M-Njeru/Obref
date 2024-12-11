@@ -68,4 +68,48 @@
     min-height:200px;
     padding:30px 30px 20px 10px;
   }
+
+article{
+padding-left: 10px;
+margin-bottom: 10px;
+}
+article #intro{
+  color:#0c2323 ;
+  font-size: xx-large;
+  font-weight: 200;
+}
+
+.separationLine{
+  width: 80%;
+  height: 2px;
+  background-color: #0c2323;
+  padding: 0 10%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.aboutImages{
+display: flex;
+flex-direction: column;
+}
+.firstPost{
+  margin-bottom: 30px;
+}
+.firstPost img{
+  width: 400px;
+  height: 300px;
+}
+.firstContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position:relative;
+  top: 10%;
+  background-color:#0c2323 ;
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  border-radius: 20px;
+  
+}
 }

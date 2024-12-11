@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+header img {
+  max-height: 55%;
+  max-width: 85%;
+  display: flex;
+  align-self: center;
+  border-radius: 6%;
+  padding-bottom: 45px;
+}

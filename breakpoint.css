@@ -42,17 +42,23 @@
   section {
     background-color: #0c2323;
     display: flex; 
+    margin-bottom: 10px;
   }
   section div{
     padding: 20px 20px 25px 10px;
   }
   section h5 {
     color: #6dcd9a;
+    line-height: 20px;
+    font-size: larger;
+    margin-bottom: 5px;
+    padding-left: 20px;
   }
   section p {
     color: #6dcd9a;
     font-size:x-small ;
     line-height: 15px;
+    padding-left: 10px;
   }
 
   section img{

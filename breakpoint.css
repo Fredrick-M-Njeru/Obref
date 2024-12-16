@@ -41,10 +41,10 @@
   }
   section {
     background-color: #0c2323;
-    display: flex; 
+    display: flex;
     margin-bottom: 10px;
   }
-  section div{
+  section div {
     padding: 20px 20px 25px 10px;
   }
   section h5 {
@@ -56,60 +56,86 @@
   }
   section p {
     color: #6dcd9a;
-    font-size:x-small ;
+    font-size: x-small;
     line-height: 15px;
     padding-left: 10px;
   }
 
-  section img{
-    max-width:150px;
+  section img {
+    max-width: 150px;
     min-width: 150px;
     max-height: 200px;
-    min-height:200px;
-    padding:30px 30px 20px 10px;
+    min-height: 200px;
+    padding: 30px 30px 20px 10px;
   }
 
-article{
-padding-left: 10px;
-margin-bottom: 10px;
-}
-article #intro{
-  color:#0c2323 ;
-  font-size: xx-large;
-  font-weight: 200;
-}
+  /* ARTICLE SECTION */
+  article {
+    padding-left: 10px;
+  }
 
-.separationLine{
-  width: 80%;
-  height: 2px;
-  background-color: #0c2323;
-  padding: 0 10%;
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-.aboutImages{
-display: flex;
-flex-direction: column;
-}
-.firstPost{
-  margin-bottom: 30px;
-}
-.firstPost img{
-  width: 400px;
-  height: 300px;
-}
-.firstContent{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  position:relative;
-  top: 10%;
-  background-color:#0c2323 ;
-  width: 200px;
-  height: 200px;
-  align-self: center;
-  border-radius: 20px;
-  
-}
+  article #intro {
+    color: #0c2323;
+    font-size: xx-large;
+    font-weight: 200;
+  }
+
+  .separationLine {
+    width: 80%;
+    height: 2px;
+    background-color: #0c2323;
+    padding: 0 10%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  /* about images=>Article */
+  .aboutSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    min-width: 370px;
+    max-width: 370px;
+    max-height: 500px;
+    padding-left: 20px;
+  }
+  .firstPost,
+  .secondPost,
+  .thirdPost {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* green bground that overlaps the images */
+  .firstContent {
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+    background-color: #0c2323;
+    color: #6dcd9a;
+    width: 260px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .content {
+    position: absolute;
+    background-color: #0c2323;
+    width: 260px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    color: #6dcd9a;
+    bottom: 30px;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }

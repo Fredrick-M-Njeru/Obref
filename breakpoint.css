@@ -142,7 +142,11 @@
   .achievements {
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 1000px;
+    width: 100%;
+  }
+  .rightSide {
+    position: relative;
   }
   .rightSide h4 {
     color: #6dcd9a;
@@ -237,8 +241,149 @@
   .leftSide {
     height: auto;
     width: auto;
+    position: relative;
   }
-  .leftSide span{
+  .leftSide img {
+    min-height: 700px;
+    min-width: 400px;
+    object-fit: contain;
+    margin-left: 30px;
+    position: absolute;
+    top: -170px;
+  }
+  /* DISCOVERY SECTION */
+  .discovery {
+    display: flex;
+    flex-direction: column;
+    background-color: #90bf9f;
+  }
 
+  .discover {
+    color: #0c2323;
+    font-size: 45px;
+    line-height: 50px;
+    padding-left: 50px;
+    padding-bottom: 200px;
   }
+  /* TESTIMONIAL SECTION */
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+  }
+  .testimonials .separationLine {
+    margin-left: 20px;
+  }
+
+  .testimonials img {
+    height: 140px;
+    width: 140px;
+    border-radius: 45%;
+    object-fit: contain;
+  }
+  .testimonials span {
+    color: #6dcd9a;
+  }
+  .testimonials h3 {
+    margin-left: 20px;
+  }
+
+  .firstTestimonial,
+  .secondTestimonial,
+  .thirdTestimonial {
+    background-color: #0c2323;
+    height: auto;
+    width: 350px;
+    border-radius: 25px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+  }
+  .testimonials p {
+    color: #6dcd9a;
+    padding: 20px;
+  }
+
+  .firstTestimonial {
+    margin-bottom: 10px;
+    /* display: flex;
+    flex-direction: column;
+    padding: 30px; */
+  }
+  .firstTestimonial span {
+    padding-top: 30px;
+  }
+  .secondTestimonial {
+    margin-bottom: 10px;
+  }
+  .thirdTestimonial {
+    margin-bottom: 10px;
+  }
+  /* FOOTER SECTION */
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #0c2323;
+    color: #6dcd9a;
+  }
+  footer img {
+    height: 450px;
+    width: 380px;
+    padding: 30px;
+    border-radius: 35px;
+    object-fit: fill;
+  }
+  footer .separationLine2 {
+    margin-left: 30px;
+  }
+
+  .workUs h4 {
+    font-size: 45px;
+    font-weight: lighter;
+    padding-left: 30px;
+  }
+  .workUs p {
+    font-size: larger;
+    font-weight: lighter;
+    padding-left: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  footer button {
+    width: 140px;
+    height: 60px;
+    margin-left: 30px;
+    border-radius: 20%;
+    cursor: pointer;
+  }
+  .contacts h5 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .contacts span {
+    padding-left: 30px;
+    margin-bottom: 50px;  
+  }
+   footer .bx{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px; 
+   }
+
+.footerIcons span{
+  display: flex;
+  font-size: xx-large;
+  justify-content: center;
+  margin-top: 20px;
+ cursor: pointer;
+}
+
 }

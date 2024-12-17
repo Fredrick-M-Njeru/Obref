@@ -138,4 +138,107 @@
     flex-direction: column;
     text-align: center;
   }
+  /* SECTION ACHIEVEMENT */
+  .achievements {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .rightSide h4 {
+    color: #6dcd9a;
+    font-weight: lighter;
+    font-size: xx-large;
+  }
+  .separationLine2 {
+    width: 80%;
+    height: 2px;
+    padding: 0 10%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background-color: #6dcd9a;
+  }
+  .rightSide div {
+    margin-bottom: 30px;
+  }
+  .p1,
+  .p2,
+  .p3 {
+    position: relative;
+    color: #6dcd9a;
+  }
+  .icon {
+    font-size: 50px;
+    margin-left: 20px;
+  }
+  .intj {
+    font-size: 40px;
+  }
+  .str {
+    font-size: 15px;
+  }
+
+  .p1 {
+    display: flex;
+  }
+  #icon1 {
+    position: relative;
+  }
+  #intj1 {
+    position: absolute;
+    left: 110px;
+    top: 25px;
+  }
+  #str1 {
+    position: absolute;
+    top: 80px;
+    left: 125px;
+  }
+  .p2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    top: -30px;
+    left: 50px;
+  }
+
+  .p2 div {
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .p2 #str2 {
+    position: absolute;
+    left: 25px;
+    top: 70px;
+  }
+
+  .p3 {
+    position: relative;
+    top: -40px;
+    left: 150px;
+    display: flex;
+  }
+
+  .p3 div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+  }
+  .p3 #str3 {
+    position: relative;
+    left: 30px;
+  }
+
+  .leftSide {
+    height: auto;
+    width: auto;
+  }
+  .leftSide span{
+
+  }
 }

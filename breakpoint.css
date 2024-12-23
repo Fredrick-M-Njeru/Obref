@@ -36,8 +36,9 @@
     max-width: 85%;
     display: flex;
     align-self: center;
-    border-radius: 50px 30px;
-    padding-bottom: 45px;
+    border-radius: 50px;
+    object-fit:fill;
+   
   }
   /* INTRO SECTION */
   section {
@@ -104,6 +105,7 @@
     max-height: 500px;
     padding-left: 20px;
   }
+
   .firstPost,
   .secondPost,
   .thirdPost {
@@ -386,5 +388,4 @@
   margin-top: 20px;
  cursor: pointer;
 }
-
 }

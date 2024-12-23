@@ -276,6 +276,7 @@
     position: relative;
     margin-top: 20px;
   }
+
   .testimonials .separationLine {
     margin-left: 20px;
   }
@@ -286,6 +287,7 @@
     border-radius: 45%;
     object-fit: contain;
   }
+
   .testimonials span {
     color: #6dcd9a;
   }
@@ -313,9 +315,7 @@
 
   .firstTestimonial {
     margin-bottom: 10px;
-    /* display: flex;
-    flex-direction: column;
-    padding: 30px; */
+   
   }
   .firstTestimonial span {
     padding-top: 30px;
